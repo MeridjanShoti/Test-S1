@@ -65,8 +65,11 @@ article img{
 aside div{
     border: 1px solid #dee1e3;
     width: 30%;
-    margin-bottom: 20px;
+    margin: 0 15px;
     display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 420px;
 }
 aside{
     margin: 0 auto 50px auto;
