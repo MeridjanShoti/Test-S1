@@ -1,0 +1,118 @@
+/* Your styles here */
+html, body{
+    width: 100vw;
+    text-align: center;
+}
+body{
+    font-family: "Open Sans", serif;
+    color: #393d41 ;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+header{
+    text-align: center;
+}
+header > div{
+    background-color: black;
+    padding: 30px;
+    text-align: left;
+}
+header div img{
+    width: 33%;
+}
+nav{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+    height: auto;
+    box-sizing: border-box;
+    width: 100vw;
+    
+}
+h1,h2,h3{
+    color: #25a2c3;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+button{
+    background-color: #f04c2f;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    padding: 10px 25px;
+}
+img{
+    max-width: 100%;
+}
+article{
+    margin-top: 40px;
+}
+article img{
+    border-radius: 50%;
+    max-width: 50%;
+    height: 50%;
+}
+#orange{
+    color: white;
+    background-color: #e22d0e;
+    padding: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+aside div{
+    border: 1px solid #dee1e3;
+    width: 30%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+aside{
+    margin: 0 auto 50px auto;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+hr{
+    border: 1px solid #c8e7f0;
+    width: 40%;
+}
+footer h1{
+    color: white;
+}
+footer a{
+    color: #c8e7f0;
+}
+p{
+    overflow: wrap;
+    padding: 20px;
+}
+em{
+    font-style: italic;
+}
+#big{
+    font-weight: bold;
+    font-size: 1.6em;
+    color: white;
+}
+nav{
+    
+}
+nav h1{
+    /* so che l'interlinea degli headings era 1.5
+    ma solo per questo heading il risultato è più fedele al mockup con un interlinea di 1 */
+    font-size: 1.5em;
+    width: 50%;
+    margin: auto;
+    line-height: 1;
+}
+.inlineblock{
+    display: inline-block;
+}
